@@ -1,0 +1,9 @@
+ 
+     How to create a docker image
+ create a Dockerfile
+touch index.html
+vim index.html
+add content
+docker build imagename .
+ docker tag image name repository name/imagename
+doccker push repository name/imagename
